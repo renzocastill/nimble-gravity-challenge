@@ -26,6 +26,7 @@ function JobItem({ job }) {
         },
         body: JSON.stringify({
           uuid: "5b90f301-c612-4426-9256-ddb5f7fcbf3f",
+          applicationId: "77971680005",
           candidateId: "74263702005",
           jobId: job.id,
           repoUrl: repoUrl,
